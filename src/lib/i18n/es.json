@@ -1,0 +1,400 @@
+{
+    "hero": {
+        "headline": "Decisión [fingerprint] humana + ejecución con IA",
+        "subheadline": "Agentes y automatizaciones integradas con tu stack para eliminar trabajo manual y acelerar el ROI.",
+        "cta_primary": "Solicitar Blueprint",
+        "cta_secondary": "Reservar llamada",
+        "trust_line": "Respondemos en <24h laborables"
+    },
+    "nav": {
+        "solutions": "Soluciones",
+        "process": "Proceso",
+        "results": "Resultados",
+        "faq": "FAQ",
+        "cta_blueprint": "Solicitar Blueprint",
+        "cta_call": "Reservar llamada"
+    },
+    "toolstack": {
+        "title": "Potenciado por las mejores herramientas",
+        "subtitle": "Construimos con la tecnología más avanzada del mercado"
+    },
+    "solutions": {
+        "title": "Resultados, no promesas",
+        "subtitle": "Sistemas de IA que trabajan para ti, 24/7",
+        "cards": [
+            {
+                "title": "AI Operators",
+                "description": "Agentes autónomos que ejecutan tareas repetitivas sin intervención humana",
+                "bullets": [
+                    "Procesamiento de emails y tickets automático",
+                    "Cualificación de leads en tiempo real",
+                    "Generación de propuestas y documentos"
+                ],
+                "cta": "Ver ejemplos"
+            },
+            {
+                "title": "Sistemas de Automatización",
+                "description": "Workflows que conectan tus herramientas y eliminan trabajo manual",
+                "bullets": [
+                    "Integraciones con +500 apps (n8n, Make)",
+                    "Sincronización CRM-ERP en tiempo real",
+                    "Reportes automáticos personalizados"
+                ],
+                "cta": "Ver ejemplos"
+            },
+            {
+                "title": "Mantenimiento & Optimización",
+                "description": "Monitoreo continuo y mejoras proactivas de tus sistemas",
+                "bullets": [
+                    "Alertas y detección de anomalías",
+                    "Optimización mensual de workflows",
+                    "Soporte técnico prioritario"
+                ],
+                "cta": "Ver ejemplos"
+            }
+        ]
+    },
+    "focus": {
+        "title": "Elige tu enfoque",
+        "subtitle": "¿Dónde necesitas impacto inmediato?",
+        "operations": {
+            "title": "Para Operaciones",
+            "description": "Reduce costes y elimina cuellos de botella",
+            "bullets": [
+                "Automatiza procesos repetitivos",
+                "Reduce errores humanos en un 70%",
+                "Libera a tu equipo para tareas de valor"
+            ],
+            "cta": "Optimizar operaciones"
+        },
+        "revenue": {
+            "title": "Para Revenue",
+            "description": "Acelera ventas y mejora conversión",
+            "bullets": [
+                "Lead scoring y cualificación 24/7",
+                "Follow-ups automáticos personalizados",
+                "Pipeline siempre actualizado"
+            ],
+            "cta": "Acelerar ventas"
+        }
+    },
+    "process": {
+        "title": "Cómo trabajamos",
+        "subtitle": "De la idea al sistema funcionando en semanas",
+        "delivery": "Pilotos en 14–30 días (según alcance)",
+        "steps": [
+            {
+                "number": "01",
+                "title": "Blueprint",
+                "description": "Analizamos tus procesos y diseñamos la solución óptima. Sin compromiso."
+            },
+            {
+                "number": "02",
+                "title": "Build",
+                "description": "Construimos e integramos los sistemas con tu stack actual."
+            },
+            {
+                "number": "03",
+                "title": "Maintain",
+                "description": "Monitoreamos, optimizamos y escalamos según tus necesidades."
+            }
+        ]
+    },
+    "results": {
+        "title": "Resultados reales",
+        "subtitle": "Métricas agregadas de nuestras implementaciones",
+        "disclaimer": "Depende del volumen y del proceso",
+        "metrics": [
+            {
+                "value": "20–120",
+                "unit": "horas/mes",
+                "label": "ahorradas"
+            },
+            {
+                "value": "30–70%",
+                "unit": "",
+                "label": "más velocidad en tareas repetitivas"
+            },
+            {
+                "value": "2–6",
+                "unit": "semanas",
+                "label": "impacto inicial (con volumen)"
+            }
+        ]
+    },
+    "pricing": {
+        "title": "Inversión orientativa",
+        "subtitle": "Rangos según complejidad y alcance",
+        "note": "Te damos un plan y rango exacto tras el cuestionario",
+        "items": [
+            {
+                "label": "Implementaciones típicas",
+                "value": "1.500€ – 15.000€"
+            },
+            {
+                "label": "Mantenimiento",
+                "value": "desde 500€/mes"
+            },
+            {
+                "label": "Blueprint",
+                "value": "Gratis",
+                "note": "(previa validación)"
+            }
+        ]
+    },
+    "faq": {
+        "title": "Preguntas frecuentes",
+        "items": [
+            {
+                "question": "¿Cuánto tarda una implementación típica?",
+                "answer": "Los pilotos se entregan en 14-30 días según el alcance. Proyectos más complejos pueden requerir 6-12 semanas. Durante el Blueprint definimos el timeline exacto."
+            },
+            {
+                "question": "¿Cómo gestionáis la seguridad y GDPR?",
+                "answer": "Todos nuestros sistemas cumplen con GDPR. Podemos trabajar con hosting EU-only, datos encriptados y logs de auditoría completos según tus requisitos."
+            },
+            {
+                "question": "¿Necesitáis acceso a nuestros datos?",
+                "answer": "Solo accedemos a los datos estrictamente necesarios, y siempre con credenciales limitadas. Firmamos NDAs y DPAs antes de empezar."
+            },
+            {
+                "question": "¿Qué mantenimiento requieren los sistemas?",
+                "answer": "Ofrecemos planes de mantenimiento desde 500€/mes que incluyen monitoreo 24/7, actualizaciones y optimizaciones mensuales."
+            },
+            {
+                "question": "¿Qué herramientas utilizáis?",
+                "answer": "Trabajamos principalmente con n8n, Make, Supabase, Claude y otras herramientas enterprise. Nos adaptamos a tu stack existente."
+            },
+            {
+                "question": "¿Y si ya tenemos automatizaciones básicas?",
+                "answer": "Perfecto. Auditamos lo existente, identificamos mejoras y construimos sobre tu base sin empezar de cero."
+            },
+            {
+                "question": "¿Trabajáis con startups o solo enterprise?",
+                "answer": "Trabajamos con empresas de 5 a 500+ empleados. El factor clave es el volumen de tareas repetitivas, no el tamaño."
+            },
+            {
+                "question": "¿Qué pasa si el piloto no funciona?",
+                "answer": "Definimos métricas claras de éxito en el Blueprint. Si no cumplimos, ajustamos sin coste adicional hasta conseguir el resultado."
+            }
+        ]
+    },
+    "testimonials": {
+        "title": "Reseñas",
+        "subtitle": "Equipos que ya operan con sistemas Synecta.",
+        "items": [
+            {
+                "company": "GrowX",
+                "industry": "Agencia de Marketing Digital",
+                "quote": "Pasamos de 30 correos manuales al día a más de 400 emails personalizados con IA, sin contratar a nadie más.",
+                "chip": "400+ emails/día"
+            },
+            {
+                "company": "Ensigna",
+                "industry": "Estudio de Arquitectura",
+                "quote": "Ahora generamos posts automáticos basados en nuestros proyectos y mantenemos presencia online sin esfuerzo diario.",
+                "chip": "Contenido automático"
+            },
+            {
+                "company": "Biohacking for Wellness",
+                "industry": "Ecommerce de Bienestar y Longevidad",
+                "quote": "Automatizamos captación y post-compra. Generamos emails, posts y respuestas personalizadas con IA cada día.",
+                "chip": "Post-compra + captación"
+            },
+            {
+                "company": "Scalo Agency",
+                "industry": "Agencia de Growth Marketing",
+                "quote": "Synecta automatizó nuestro sistema de prospección y seguimiento con IA. Leads, propuestas y follow-ups sin fricción.",
+                "chip": "Prospección + follow-ups"
+            },
+            {
+                "company": "MS Legal Group",
+                "industry": "Servicios Legales",
+                "quote": "Estandarizamos el intake y la cualificación. Agenda y seguimiento quedan automatizados y trazables.",
+                "chip": "Intake + agenda"
+            }
+        ]
+    },
+    "cta_final": {
+        "title": "¿Listo para automatizar?",
+        "subtitle": "Solicita tu Blueprint gratuito y descubre cuántas horas puedes recuperar.",
+        "button": "Solicitar Blueprint"
+    },
+    "footer": {
+        "copyright": "© 2026 Synecta. Todos los derechos reservados.",
+        "privacy": "Privacidad",
+        "cookies": "Cookies"
+    },
+    "modal": {
+        "title": "Solicitar Blueprint",
+        "step1_title": "Tus datos",
+        "step2_title": "Cuestionario",
+        "success_title": "¡Gracias!",
+        "success_message": "Responderemos en <24h laborables con tu Blueprint personalizado.",
+        "success_cta": "Reservar llamada ahora",
+        "success_alt": "Enviar otro caso",
+        "form": {
+            "name": "Nombre completo",
+            "email": "Email profesional",
+            "company": "Empresa",
+            "role": "Tu rol",
+            "role_options": [
+                "CEO/Fundador",
+                "COO/Operaciones",
+                "Director Ventas",
+                "Director CS",
+                "IT/Producto",
+                "Otro"
+            ],
+            "company_size": "Tamaño empresa",
+            "size_options": [
+                "Autónomo",
+                "2 – 10",
+                "11 – 50",
+                "51 – 200",
+                "200+"
+            ],
+            "website": "Web (opcional)",
+            "submit": "Continuar al cuestionario"
+        },
+        "quiz": {
+            "q1": {
+                "title": "¿Cuál es tu objetivo principal? (máx. 2)",
+                "options": [
+                    "Reducir costes operativos",
+                    "Aumentar velocidad",
+                    "Mejorar soporte/atención",
+                    "Mejorar conversión/ventas",
+                    "Automatizar reporting",
+                    "Reducir errores"
+                ]
+            },
+            "q2": {
+                "title": "¿Qué área tiene más trabajo repetitivo?",
+                "options": [
+                    "Ventas",
+                    "Marketing",
+                    "Operaciones/Backoffice",
+                    "Atención al cliente",
+                    "Finanzas/Admin",
+                    "RRHH",
+                    "Legal",
+                    "IT/Producto"
+                ]
+            },
+            "q3": {
+                "title": "¿Qué tareas repetitivas hacéis? (multi)",
+                "options": [
+                    "Triaje de emails",
+                    "Cualificación leads/CRM",
+                    "Propuestas/presupuestos",
+                    "Triaje tickets/FAQ",
+                    "Extracción de documentos",
+                    "Reporting manual",
+                    "Updates ERP/CRM",
+                    "Scheduling/planificación",
+                    "Otro"
+                ]
+            },
+            "q4": {
+                "title": "¿Volumen diario de estas tareas?",
+                "options": [
+                    "1–10",
+                    "11–50",
+                    "51–200",
+                    "200+"
+                ]
+            },
+            "q5": {
+                "title": "¿Canales principales? (multi)",
+                "options": [
+                    "Email",
+                    "WhatsApp",
+                    "Web/Chat",
+                    "Teléfono",
+                    "Ticketing",
+                    "Redes sociales"
+                ]
+            },
+            "q6": {
+                "title": "¿Herramientas actuales? (multi)",
+                "options": [
+                    "HubSpot",
+                    "Salesforce",
+                    "Pipedrive",
+                    "Zoho",
+                    "Slack",
+                    "Teams",
+                    "Drive/SharePoint",
+                    "Notion",
+                    "Zendesk/Intercom",
+                    "Shopify/Woo",
+                    "Ninguna automatización",
+                    "Make/Zapier",
+                    "n8n",
+                    "Otra"
+                ]
+            },
+            "q7": {
+                "title": "¿Estado de tus datos?",
+                "options": [
+                    "APIs cloud listas",
+                    "Mix cloud + spreadsheets",
+                    "Procesos sin documentar",
+                    "Restricciones estrictas"
+                ]
+            },
+            "q8": {
+                "title": "¿Requisitos de cumplimiento? (multi)",
+                "options": [
+                    "GDPR estricto",
+                    "Datos sensibles",
+                    "Hosting solo EU",
+                    "Sin modelos externos",
+                    "Logs de auditoría",
+                    "Bilingue ES/EN",
+                    "Ninguno especial"
+                ]
+            },
+            "q9": {
+                "title": "¿Cuándo necesitas implementar?",
+                "options": [
+                    "Esta semana",
+                    "2–4 semanas",
+                    "1–2 meses",
+                    "3+ meses"
+                ]
+            },
+            "q10": {
+                "title": "¿Presupuesto orientativo?",
+                "options": [
+                    "<2.000€",
+                    "2.000–5.000€",
+                    "5.000–10.000€",
+                    "10.000–25.000€",
+                    "25.000€+"
+                ]
+            },
+            "q11": {
+                "title": "¿Te interesa mantenimiento continuo?",
+                "options": [
+                    "Sí, quiero que lo gestionéis",
+                    "No por ahora"
+                ]
+            },
+            "text1": {
+                "title": "¿Cuál es tu mayor cuello de botella?",
+                "placeholder": "Describe brevemente el proceso que más tiempo os consume..."
+            },
+            "text2": {
+                "title": "Ejemplo real (opcional)",
+                "placeholder": "Pega un email/ticket típico o describe un caso concreto..."
+            },
+            "text3": {
+                "title": "¿Qué sería un éxito en 30 días? (opcional)",
+                "placeholder": "Ej: reducir tiempo de respuesta a leads de 4h a 15min..."
+            },
+            "submit": "Enviar cuestionario"
+        }
+    }
+}

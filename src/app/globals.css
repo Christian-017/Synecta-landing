@@ -1,8 +1,39 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
+@custom-variant dark (&:is(.dark *));
+
+/* Synecta Brand Colors */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --radius: 0.625rem;
+
+  /* Brand palette */
+  --synecta-primary: #1C5D99;
+  --synecta-secondary: #6C63FF;
+  --synecta-accent: #AEBBFE;
+  --synecta-text: #F5F7FA;
+  --synecta-background: #0B0D10;
+  --synecta-surface: #0F1116;
+
+  /* Dark theme */
+  --background: #0B0D10;
+  --foreground: #F5F7FA;
+  --card: #0F1116;
+  --card-foreground: #F5F7FA;
+  --popover: #0F1116;
+  --popover-foreground: #F5F7FA;
+  --primary: #1C5D99;
+  --primary-foreground: #F5F7FA;
+  --secondary: #6C63FF;
+  --secondary-foreground: #F5F7FA;
+  --muted: #1a1d24;
+  --muted-foreground: #8b9199;
+  --accent: #AEBBFE;
+  --accent-foreground: #0B0D10;
+  --destructive: #ef4444;
+  --border: rgba(255, 255, 255, 0.1);
+  --input: rgba(255, 255, 255, 0.08);
+  --ring: #1C5D99;
 }
 
 @theme inline {
@@ -10,17 +41,135 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+
+  /* Synecta brand tokens */
+  --color-synecta-primary: var(--synecta-primary);
+  --color-synecta-secondary: var(--synecta-secondary);
+  --color-synecta-accent: var(--synecta-accent);
+  --color-synecta-text: var(--synecta-text);
+  --color-synecta-background: var(--synecta-background);
+  --color-synecta-surface: var(--synecta-surface);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+
+  /* Premium glow effects */
+  .glow-primary {
+    box-shadow: 0 0 20px rgba(28, 93, 153, 0.4),
+      0 0 40px rgba(28, 93, 153, 0.2),
+      0 0 60px rgba(28, 93, 153, 0.1);
+  }
+
+  .glow-secondary {
+    box-shadow: 0 0 20px rgba(108, 99, 255, 0.4),
+      0 0 40px rgba(108, 99, 255, 0.2);
+  }
+
+  .glow-text {
+    text-shadow: 0 0 20px rgba(28, 93, 153, 0.6),
+      0 0 40px rgba(28, 93, 153, 0.3);
+  }
+
+  /* Ghost text effect */
+  .ghost-text {
+    color: rgba(255, 255, 255, 0.03);
+    font-size: clamp(6rem, 15vw, 12rem);
+    font-weight: 800;
+    position: absolute;
+    white-space: nowrap;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  /* Gradient backgrounds */
+  .gradient-radial {
+    background: radial-gradient(ellipse at center, var(--synecta-primary) 0%, transparent 70%);
+  }
+
+  .gradient-surface {
+    background: linear-gradient(180deg, var(--synecta-surface) 0%, var(--synecta-background) 100%);
+  }
+
+  /* Glass effect */
+  .glass {
+    background: rgba(15, 17, 22, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  /* Premium border */
+  .border-glow {
+    border: 1px solid rgba(28, 93, 153, 0.3);
+  }
+
+  /* Word animation states */
+  .word-inactive {
+    color: rgba(139, 145, 153, 0.5);
+    transition: color 0.3s ease, opacity 0.3s ease;
+  }
+
+  .word-active {
+    color: #F5F7FA;
+    transition: color 0.3s ease, opacity 0.3s ease;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--synecta-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--synecta-surface);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--synecta-primary);
+}
+
+/* Selection styling */
+::selection {
+  background: var(--synecta-primary);
+  color: var(--synecta-text);
 }
